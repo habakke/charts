@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  hmq-chart:
+  - apiVersion: v2
+    appVersion: 2.0.41
+    created: "2020-11-17T19:29:57.761147118Z"
+    description: High Performance MQTT Broker
+    digest: b195e3dcfb69cf6882f3315c91ea010db2189a8ad299d99d45f6b255cb407a62
+    name: hmq-chart
+    type: application
+    urls:
+    - https://github.com/habakke/charts/releases/download/hmq-chart-2.0.41/hmq-chart-2.0.41.tgz
+    version: 2.0.41
+generated: "2020-11-17T19:29:57.507124345Z"
