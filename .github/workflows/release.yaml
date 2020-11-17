@@ -39,6 +39,6 @@ jobs:
       - name: Run chart-releaser
         uses: helm/chart-releaser-action@v1.0.0
         with:
-          charts_repo_url: https://habakke.github.io/charts/
+          charts_repo_url: https://www.matrise.net/charts/
         env:
           CR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
