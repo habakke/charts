@@ -1,0 +1,6 @@
+helm-extra-args: --timeout 600s
+chart-dirs:
+  - charts
+chart-repos:
+  - bitnami=https://charts.bitnami.com/bitnami
+  - habakke=https://habakke.github.io/charts
