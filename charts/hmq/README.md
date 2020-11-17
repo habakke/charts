@@ -5,7 +5,7 @@ This is a helm chart for [hmq](https://github.com/habakke/hmq)
 ## TL;DR;
 
 ```shell
-$ helm repo add habakke https://charts.matrise.net/
+$ helm repo add habakke https://habakke.github.io/charts/
 $ helm install habakke/hmq
 ```
 
