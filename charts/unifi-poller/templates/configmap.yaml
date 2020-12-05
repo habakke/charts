@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ .Release.Name }}-settings
+data:
+  up.conf: |
+  {{- with .Values.config }}
+    {{- toYaml . | nindent 4 }}
+  {{- end }}

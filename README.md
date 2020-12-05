@@ -16,3 +16,4 @@ You can then run `helm search repo habakke` to see the charts.
 ## Charts
 
 - High Performance MQTT Broker (HMQ)
+- Unifi-poller
